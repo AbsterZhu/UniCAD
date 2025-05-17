@@ -27,7 +27,7 @@ pip install timm
 ### For training on MedMNIST 2D datasets (example: dermamnist_224 dataset)
 ```
 cd UniCAD
-python train_timm.py  -bs 32 -data_path "dermamnist_224" -data_info "dermamnist_224" -lr 3e-4 -epochs 100 -num_classes 7 -train_type "lora3d" -rank 4 -vit "base"
+python train_timm.py  -bs 32 -data_path "dermamnist_224" -data_info "dermamnist_224" -lr 3e-4 -epochs 100 -num_classes 7 -train_type "lora" -rank 4 -vit "base"
 ```
 ### For training on MedMNIST 2D datasets (example: adrenalmnist3d_64 dataset)
 ```
